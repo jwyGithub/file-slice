@@ -1,13 +1,14 @@
 {
-    "name": "file-slice",
+    "name": "file-slicing",
     "version": "0.0.1",
     "description": "A file slicing tool",
     "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
     "homepage": "https://github.com/jwyGithub/file-slice",
     "keywords": [
         "file",
-        "slice",
-        "worker"
+        "slicing",
+        "worker",
+        "bigfile"
     ],
     "publishConfig": {
         "access": "public"
