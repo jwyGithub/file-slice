@@ -1,6 +1,6 @@
 {
     "name": "@jiangweiye/file-slice",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A file slicing tool",
     "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
     "homepage": "https://github.com/jwyGithub/file-slice",
@@ -19,7 +19,7 @@
             "require": "./dist/index.js",
             "import": "./dist/esm/index.js"
         },
-        "./worker": {
+        "./slice.worker.js": {
             "types": "./dist/slice.worker.d.ts",
             "require": "./dist/slice.worker.js",
             "import": "./dist/esm/slice.worker.js"
@@ -27,7 +27,7 @@
     },
     "typesVersions": {
         "*": {
-            "worker": [
+            "slice.worker.js": [
                 "./dist/slice.worker.d.ts"
             ]
         }

@@ -13,7 +13,7 @@ export default defineConfig({
     dts: true,
     target: ['es2015'],
     format: ['cjs', 'esm', 'iife'],
-    minify: false,
+    minify: true,
     clean: true,
     splitting: false,
     legacyOutput: true,
