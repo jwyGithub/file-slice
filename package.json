@@ -1,5 +1,5 @@
 {
-    "name": "file-slicing",
+    "name": "@jiangweiye/file-slice",
     "version": "0.0.1",
     "description": "A file slicing tool",
     "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
