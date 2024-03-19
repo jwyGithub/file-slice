@@ -1,0 +1,54 @@
+{
+    "name": "file-slice",
+    "version": "0.0.1",
+    "description": "A file slicing tool",
+    "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
+    "homepage": "https://github.com/jwyGithub/file-slice",
+    "keywords": [
+        "file",
+        "slice",
+        "worker"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.js",
+            "import": "./dist/esm/index.js"
+        },
+        "./worker": {
+            "types": "./dist/slice.worker.d.ts",
+            "require": "./dist/slice.worker.js",
+            "import": "./dist/esm/slice.worker.js"
+        }
+    },
+    "typesVersions": {
+        "*": {
+            "worker": [
+                "./dist/slice.worker.d.ts"
+            ]
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/esm/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "license": "ISC",
+    "scripts": {
+        "build": "tsup"
+    },
+    "devDependencies": {
+        "@jiangweiye/tsconfig": "0.0.9",
+        "@swc/core": "^1.4.5",
+        "@types/node": "^20.11.25",
+        "@types/spark-md5": "^3.0.4",
+        "spark-md5": "^3.0.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.2"
+    }
+}
+
